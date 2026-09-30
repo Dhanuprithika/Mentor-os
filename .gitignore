@@ -1,0 +1,53 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# User-specific stuff
+.idea/
+.vscode/
+*.workspace
+*.xml
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Dart & Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+linked_target
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions
+android/app/debug
+android/app/profile
+android/app/release
+
+# Serverpod & Server configuration
+config/passwords.yaml
+config/development.yaml.local
+config/staging.yaml.local
+config/production.yaml.local
+*.generated.dart
+
+# Environment variables
+.env
+.env.*
+!.env.example
