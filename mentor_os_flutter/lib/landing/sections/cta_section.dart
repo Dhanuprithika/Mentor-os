@@ -18,7 +18,7 @@ class CtaSection extends StatelessWidget {
         : CosmicSpacing.sectionPaddingHDesktop;
 
     return CosmicBackground(
-      topColor: const Color(0xFF0D0515),
+      topColor: CosmicColors.ctaTopGradient,
       bottomColor: CosmicColors.deepSpace,
       particleCount: 40,
       child: Container(

@@ -64,7 +64,7 @@ class ProblemSection extends StatelessWidget {
           center: Alignment.center,
           radius: 1.2,
           colors: [
-            Color(0xFF101828),
+            CosmicColors.problemSectionMid,
             CosmicColors.deepSpace,
           ],
         ),

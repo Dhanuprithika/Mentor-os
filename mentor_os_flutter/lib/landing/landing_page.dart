@@ -29,6 +29,7 @@ class _LandingPageState extends State<LandingPage> {
   final GlobalKey _howItWorksKey = GlobalKey();
   final GlobalKey _featuresKey = GlobalKey();
   final GlobalKey _journeyKey = GlobalKey();
+  final GlobalKey _aiKey = GlobalKey();
 
   void _scrollToHowItWorks() {
     final ctx = _howItWorksKey.currentContext;
@@ -66,7 +67,7 @@ class _LandingPageState extends State<LandingPage> {
                 ProblemSection(),
                 HowItWorksSection(key: _howItWorksKey),
                 FeaturesSection(key: _featuresKey),
-                const AiSection(),
+                AiSection(key: _aiKey),
                 const CtaSection(),
                 const FooterSection(),
               ],
@@ -83,7 +84,7 @@ class _LandingPageState extends State<LandingPage> {
                 _heroKey,
                 _howItWorksKey,
                 _featuresKey,
-                _journeyKey,
+                _aiKey,
               ],
               sectionLabels: const [
                 'Home',

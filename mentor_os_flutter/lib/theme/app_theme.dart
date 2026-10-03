@@ -19,6 +19,12 @@ class CosmicColors {
   static const Color mutedText = Color(0xFF94A3B8);
   static const Color dimText = Color(0xFF475569);
   static const Color accentText = Color(0xFFA78BFA);
+
+  /// Background used for the problem section radial gradient centre.
+  static const Color problemSectionMid = Color(0xFF101828);
+
+  /// Deep purple-black used as the CTA section top gradient colour.
+  static const Color ctaTopGradient = Color(0xFF0D0515);
 }
 
 /// Breakpoints for responsive layouts.
