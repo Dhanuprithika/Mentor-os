@@ -1,69 +1,74 @@
 # MentorOS 🚀
-> **AI-Powered Mentorship & Goal Alignment Platform**
+
+> **AI-Powered Personalized Mentorship & Growth Operating System**
 
 [![Stack](https://img.shields.io/badge/Tech_Stack-Flutter_%7C_Serverpod_4_%7C_PostgreSQL-02569B?style=for-the-badge&logo=flutter)](https://flutter.dev)
-[![Status](https://img.shields.io/badge/Status-Preparation_%2F_Planning-orange?style=for-the-badge)](https://github.com/)
+[![Status](https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge)](https://github.com/)
 
-MentorOS is an intelligent mentorship platform designed to help users define clear goals, understand their learning and professional growth needs, and automatically connect with ideal mentors through AI-powered goal analysis and semantic matching.
-
----
-
-## 📌 Project Overview
-
-Finding the right mentor is often plagued by trial-and-error, vague goals, and poor skill alignment. **MentorOS** reimagines mentorship by introducing an AI-first approach to goal clarity and mentor matching. Before matching users with mentors, MentorOS analyzes user aspirations, breaks them down into structured milestones, identifies knowledge gaps, and pairs learners with mentors whose expertise directly aligns with those requirements.
+MentorOS is an AI-powered personalized mentorship and growth platform designed to help individuals clarify their goals, understand their skill gaps, build structured growth paths, and receive targeted, continuous mentorship aligned with their evolving aspirations.
 
 ---
 
-## 💡 Problem Statement
+## 📌 Overview
 
-* **Vague Goals:** Learners often struggle to define what specific guidance they need.
-* **Inefficient Matching:** Traditional platforms match based on simple keyword search or superficial profile attributes rather than deep goal alignment.
-* **Unstructured Mentorship:** Mentorship sessions frequently lack clear agendas, leading to low engagement and ROI for both mentors and mentees.
+MentorOS is **not** simply a marketplace directory for matching students with mentors. While mentor matching is a component of the platform, the central focus of MentorOS is creating an end-to-end **personalized mentorship operating system**.
 
----
-
-## 🎯 Proposed Solution
-
-**MentorOS** bridges the gap between learner aspirations and expert guidance by combining:
-1. **AI Goal Deconstruction:** Translating ambitious objectives into actionable tracks and skill vectors.
-2. **Precision AI Matching:** Algorithmic mentor matching using vector similarity and LLM-driven domain evaluation.
-3. **Structured Mentorship OS:** An end-to-end framework providing goal tracking, session scheduling, and progress monitoring.
+Rather than searching through unstructured mentor lists, a user starts by defining their vision and goals. MentorOS uses AI intelligence to unpack those goals into actionable growth paths, identify specific knowledge and skill gaps, determine what kind of guidance is needed, match with suitable domain experts, assist in session preparation, and track progress over time.
 
 ---
 
-## 🧬 Core Concept
+## 💡 The Problem
 
-```
-┌─────────────────┐       ┌────────────────────────┐       ┌─────────────────┐
-│   Learner Goal  │ ────► │  AI Goal Analysis Engine │ ────► │   Smart Match   │
-│  "Become a Staff│       │   - Skill gap extraction│       │   Matches with  │
-│   Backend Eng"  │       │   - Milestone creation │       │   Ideal Mentor  │
-└─────────────────┘       └────────────────────────┘       └─────────────────┘
+* **Unclear & Unstructured Goals:** Learners often have ambitious career or skill goals but struggle to break them down into concrete, achievable milestones.
+* **Lack of Contextual Guidance:** Generic advice or self-directed learning paths frequently fail to address individual skill gaps and context.
+* **Fragmented Growth Journey:** Learning materials, mentorship sessions, and progress tracking are isolated across multiple disconnected tools.
+* **Unfocused Mentorship Sessions:** Mentorship often happens without clear agendas, prior skill context, or pre-session preparation, leading to low ROI for both mentors and mentees.
+* **Lack of Continuous Alignment:** Traditional mentorship ends after individual meetings without ongoing tracking to ensure mentorship evolves as the learner grows.
+
+---
+
+## 🎯 Our Approach
+
+MentorOS treats mentorship as an integrated, goal-driven operating system structured around a continuous growth lifecycle:
+
+```text
+┌──────────┐     ┌───────────┐     ┌──────────────────┐     ┌──────────────────────────┐     ┌────────────┐     ┌──────────┐     ┌──────────────────────┐
+│  PERSON  │ ──► │   GOALS   │ ──► │ AI UNDERSTANDING │ ──► │ PERSONALIZED GROWTH PATH │ ──► │ MENTORSHIP │ ──► │ PROGRESS │ ──► │ CONTINUOUS ALIGNMENT │
+└──────────┘     └───────────┘     └──────────────────┘     └──────────────────────────┘     └────────────┘     └──────────┘     └──────────────────────┘
 ```
 
-MentorOS acts as an operating system for personal and professional mentorship—treating mentorship not just as advice, but as a structured, goal-driven execution path.
+1. **Person & Goals:** The user defines their current position, personal goals, and professional aspirations.
+2. **AI Understanding:** AI analyzes user input to decompose complex objectives, extract core competencies, and identify skill gaps.
+3. **Personalized Growth Path:** A tailored roadmap with structured milestones is generated to guide the user's journey.
+4. **Mentorship:** When human expertise is needed, the system connects the user with mentors whose specific expertise aligns with current milestones.
+5. **Progress & Continuous Alignment:** Every mentorship interaction feeds back into the growth path, continuously updating milestones and realigning guidance as goals evolve.
 
 ---
 
-## ✨ Key Planned Capabilities
+## ✨ Core Capabilities
 
 | Capability | Description | Status |
 | :--- | :--- | :--- |
-| **AI Goal Analysis** | LLM-driven breakdown of user objectives into actionable milestones and required skill sets. | ⏳ Planned |
-| **Intelligent Mentor Matching** | Vector & LLM matching algorithm pairing mentees with domain experts. | ⏳ Planned |
-| **User & Mentor Profiles** | Comprehensive profiles highlighting goals, expertise, availability, and achievements. | ⏳ Planned |
-| **Mentorship Hub** | Central dashboard for tracking active mentorships, meeting schedules, and milestones. | ⏳ Planned |
-| **Real-time Communication** | Endpoint and web socket integration for seamless chat and session updates. | ⏳ Planned |
-| **Authentication & RBAC** | Secure authentication for mentees, mentors, and administrators via Serverpod Auth. | ⏳ Planned |
+| **AI Goal Understanding** | AI-driven breakdown of user aspirations into structured objectives and competency taxonomies. | ⏳ Planned |
+| **Personalized Growth Paths** | Dynamic roadmaps and actionable milestone generation tailored to individual goals. | ⏳ Planned |
+| **Skill & Gap Analysis** | Automated assessment of current user skills versus target goal requirements to surface specific guidance needs. | ⏳ Planned |
+| **Mentor Discovery & Matching** | Contextual matching pairing mentees with relevant domain experts based on active milestone needs. | ⏳ Planned |
+| **Personalized Mentorship** | Guided framework for structured mentor-mentee interactions aligned with active growth goals. | ⏳ Planned |
+| **Session Preparation** | AI assistance for generating tailored meeting agendas, discussion points, and targeted questions. | ⏳ Planned |
+| **Progress Tracking** | Milestone tracking and progress logging over time across the mentorship lifecycle. | ⏳ Planned |
+| **Continuous Goal Alignment** | Dynamic adjustments to growth paths and mentorship recommendations as learner goals evolve. | ⏳ Planned |
 
 ---
 
-## 🤖 How AI Will Be Used
+## 🤖 How AI Is Used
 
-MentorOS leverages Large Language Models (LLMs) to enhance every stage of the mentorship lifecycle:
-* **Goal Structuring & Taxonomy:** Converting unstructured text (e.g., "I want to learn cloud system design") into standardized competency frameworks.
-* **Match Rationale Generation:** Providing clear, transparent reasoning for *why* a particular mentor was recommended to a mentee.
-* **Session Agenda Assistant:** Suggesting tailored discussion topics for mentor-mentee meetings based on upcoming milestones.
+MentorOS integrates Large Language Model (LLM) intelligence at key stages of the mentorship and growth journey:
+
+* **Goal Structuring & Decomposition:** Converting open-ended user statements into structured, multi-stage goals and milestone frameworks.
+* **Skill Gap Analysis:** Evaluating user profiles against target skill requirements to highlight precise areas where mentorship is needed.
+* **Match Rationale Generation:** Synthesizing mentee needs and mentor profiles to provide clear explanation for why a mentor connection is recommended.
+* **Session Preparation Assistance:** Suggesting focused agendas and questions prior to mentorship sessions based on upcoming growth milestones.
+* **Adaptive Alignment:** Re-evaluating growth progress over time to suggest path updates or shifts in mentorship focus.
 
 ---
 
@@ -77,110 +82,107 @@ Flutter App (iOS / Android / Web / Desktop)
                    │
                    ▼
           Serverpod 4 Backend
-┌──────────────────────────────────────┐
-│  ├── Authentication                  │
-│  ├── API / Endpoints                 │
-│  ├── Business Logic                  │
-│  ├── AI Integration (LLM API)        │
-│  └── PostgreSQL Database             │
-└──────────────────────────────────────┘
+┌──────────────────────────────────────────┐
+│  ├── Serverpod Authentication            │
+│  ├── API / Serverpod Endpoints           │
+│  ├── Growth & Personalization Logic      │
+│  ├── AI / LLM Service Integration Layer  │
+│  └── PostgreSQL Database                 │
+└──────────────────────────────────────────┘
 ```
 
 ---
 
-## 🛠️ Official Technology Stack
+## 🛠️ Technology Stack
 
-| Layer | Technology | Details |
+| Layer | Technology | Description |
 | :--- | :--- | :--- |
-| **Frontend** | [Flutter](https://flutter.dev) + [Dart](https://dart.dev) | Cross-platform UI (Mobile, Web, Desktop) |
-| **Backend Framework** | [Serverpod 4](https://serverpod.dev) | Server-side Dart backend framework |
-| **Database** | [PostgreSQL](https://www.postgresql.org) | Relational storage for users, goals, sessions, & vector embeddings |
-| **API & Communication** | Serverpod Client + Endpoints | Strictly typed auto-generated client-server protocol |
-| **Authentication** | Serverpod Authentication | Integrated user identity and auth management |
-| **AI / LLM** | LLM API | Goal analysis, skill extraction, and match reasoning |
-| **AI Dev Tools** | Claude / ChatGPT / Antigravity | AI-assisted development workflow |
-| **Cloud / Deployment** | Serverpod Cloud | Scalable cloud hosting for Serverpod backend |
-| **Version Control** | Git + GitHub | Source code management |
-
-> *Note: Legacy technologies (React, Tailwind CSS, FastAPI) are completely deprecated and replaced by the Flutter + Serverpod 4 stack.*
-
----
-
-## 🚦 Development Status
-
-* [x] Project Vision & Strategy Defined
-* [x] Hackathon Tech Stack Finalized (Flutter + Serverpod 4)
-* [x] Repository & Architecture Blueprint Prepared
-* [ ] Serverpod Backend Project Initialization (**To Be Implemented**)
-* [ ] PostgreSQL Schema & Serverpod Models Definition (**To Be Implemented**)
-* [ ] Serverpod Endpoints & Auth Logic (**To Be Implemented**)
-* [ ] LLM AI Service Integration (**To Be Implemented**)
-* [ ] Flutter Frontend UI & Client Integration (**To Be Implemented**)
+| **Frontend** | [Flutter](https://flutter.dev) + [Dart](https://dart.dev) | Cross-platform UI application |
+| **Frontend Dev Tool** | **Kiro** | Specialized frontend development tool for Flutter UI implementation |
+| **Backend Framework** | [Serverpod 4](https://serverpod.dev) | Server-side Dart application framework |
+| **Database** | [PostgreSQL](https://www.postgresql.org) | Relational database for core project entities |
+| **API & Client** | Serverpod Client + Endpoints | Auto-generated, strongly typed client-server communication protocol |
+| **Authentication** | Serverpod Authentication | Integrated user identity and access management |
+| **AI / Intelligence** | LLM API | Goal understanding, skill extraction, personalization, and matching assistance |
+| **AI-Assisted Dev Tools** | **Antigravity**, Claude / ChatGPT | Project setup, environment assistance, and development tools |
+| **Deployment Target** | Serverpod Cloud | Intended cloud target for backend services |
+| **Version Control** | Git + GitHub | Repository and source code management |
 
 ---
 
-## 📂 Planned Project Structure
+## 🚦 Current Development Status
+
+* [x] Project Vision & Product Strategy Defined
+* [x] Technology Stack Finalized (Flutter + Serverpod 4 + PostgreSQL)
+* [x] Serverpod Workspace Initialized (`mentor_os_server`, `mentor_os_client`, `mentor_os_flutter`)
+* [x] PostgreSQL Database Configured
+* [x] Flutter Environment Setup Complete
+* [ ] Flutter Frontend UI Implementation (In active development via Kiro)
+* [ ] Serverpod Core Data Models & Endpoints (Under development)
+* [ ] LLM AI Service Integration (Planned)
+* [ ] End-to-End Client & Server Integration (Planned)
+
+---
+
+## 🗺️ Implementation Roadmap
+
+### Phase 1 — Foundation & Environment Setup
+* Workspace structure, Serverpod backend initialization, and Flutter environment configuration.
+
+### Phase 2 — Core Backend & Data Models
+* Definition of Serverpod protocol models (Users, Goals, Growth Paths, Mentors, Sessions) and endpoint implementation.
+
+### Phase 3 — AI Personalization Engine
+* LLM service integration for goal analysis, skill gap extraction, and contextual mentor recommendation logic.
+
+### Phase 4 — Flutter Experience
+* Full Flutter UI implementation and client integration for goal planning, growth tracking, and mentorship sessions.
+
+### Phase 5 — Integration, Testing & Deployment
+* End-to-end integration testing and backend deployment targeting Serverpod Cloud.
+
+---
+
+## 📂 Repository Structure
 
 ```text
 Mentor-os/
-├── README.md
-├── docs/                      # Architectural & API Documentation
+├── README.md                  # Project overview and documentation
+├── pubspec.yaml               # Root workspace pubspec
+├── docs/                      # Project architectural documentation
 │   └── architecture.md
-├── mentor_os_server/          # Serverpod 4 Backend Project (Planned)
-│   ├── lib/
-│   │   ├── src/
-│   │   │   ├── endpoints/     # API Endpoints
-│   │   │   ├── models/        # Database Models & Schemas
-│   │   │   └── services/      # AI & Business Logic Services
-│   │   └── server.dart
-│   └── config/
-├── mentor_os_client/          # Auto-generated Serverpod Client (Planned)
-└── mentor_os_flutter/         # Flutter Frontend Application (Planned)
-    ├── lib/
-    │   ├── src/
-    │   │   ├── features/      # Auth, Goals, Matching, Profile UI
-    │   │   ├── shared/        # Widgets, Themes, & Utilities
-    │   │   └── app.dart
-    │   └── main.dart
-    └── pubspec.yaml
+├── mentor_os_server/          # Serverpod 4 backend project
+├── mentor_os_client/          # Auto-generated Serverpod client package
+└── mentor_os_flutter/         # Flutter frontend application
 ```
 
 ---
 
-## 🗺️ Future Implementation Roadmap
+## 💻 Local Development
 
-### Phase 1: Foundation & Auth Setup
-* Initialize Serverpod backend project and PostgreSQL database connection.
-* Configure Serverpod Authentication module.
-* Scaffold Flutter application and wire up Serverpod Client.
+### Prerequisites
+* [Dart SDK](https://dart.dev) & [Flutter SDK](https://flutter.dev)
+* [Serverpod CLI](https://serverpod.dev)
+* Docker & PostgreSQL (for local backend database execution)
 
-### Phase 2: Core Data Models & Endpoints
-* Define Serverpod protocol models for Users, Mentors, Goals, Milestones, and Matches.
-* Implement CRUD endpoints for profile management and goal creation.
+### Backend Server (`mentor_os_server`)
+To start the local Serverpod backend:
+```bash
+cd mentor_os_server
+docker-compose up -d
+serverpod start
+```
 
-### Phase 3: AI Engine Integration
-* Integrate LLM API service for goal deconstruction and skill extraction.
-* Implement mentor matching service with scoring and rationale generation.
-
-### Phase 4: UI Development & Polish
-* Build Flutter UI for Goal Analyzer, Mentor Discovery, and Dashboard.
-* Connect Flutter state management to Serverpod Endpoints.
-
-### Phase 5: Testing & Cloud Deployment
-* Perform end-to-end testing of user flows and AI matching logic.
-* Deploy backend to Serverpod Cloud and package Flutter builds.
-
----
-
-## ☁️ Deployment Plan
-
-* **Backend Deployment:** Target environment is **Serverpod Cloud**, leveraging containerized Serverpod backend services connected to a managed PostgreSQL database.
-* **Frontend Deployment:** Flutter web release hosted via CDN, alongside Android/iOS build targets.
+### Flutter Frontend (`mentor_os_flutter`)
+To run the Flutter application:
+```bash
+cd mentor_os_flutter
+flutter run
+```
 
 ---
 
-## 🐙 Version Control Information
+## 📄 License & Project Info
 
-* **Repository:** `Dhanuprithika/Mentor-os`
-* **Primary Branch:** `main`
-* **Workflow:** Feature-branch workflow with clear commit messages referencing planned phases.
+Developed as part of the MentorOS project. All code and documentation managed via [GitHub](https://github.com/Dhanuprithika/Mentor-os).
+
